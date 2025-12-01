@@ -1,0 +1,1973 @@
+[
+  {
+    "step": 1,
+    "telemetry": "Altitude: 1.40. Position X: -0.00 (0 is center). Vertical Velocity: -0.38 (Negative is falling). Horizontal Velocity: -0.16. Angle: 0.00 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.40m, falling moderately (-0.38m/s), slight drift (-0.16m/s). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is 0.00 (upright), therefore I can use the MAIN_ENGINE to slow the descent. Duration set to 4 for moderate descent rate reduction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.372934341430664,
+        "horizontal_position": -0.008474349975585938,
+        "vertical_velocity": -0.30462735891342163,
+        "horizontal_velocity": -0.18124809861183167,
+        "angle": 0.00498503353446722,
+        "angular_velocity": 0.009386666119098663,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 4
+      },
+      "reward_accumulated": 7.070798492794314,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 2,
+    "telemetry": "Altitude: 1.37. Position X: -0.01 (0 is center). Vertical Velocity: -0.30 (Negative is falling). Horizontal Velocity: -0.18. Angle: 0.00 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.37m, falling (-0.30m/s), slight drift (-0.18m/s). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is 0.00 (upright), continuing to use MAIN_ENGINE to reduce moderate descent rate. Duration set to 4 for consistent braking."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.3501083850860596,
+        "horizontal_position": -0.01663045957684517,
+        "vertical_velocity": -0.22630362212657928,
+        "horizontal_velocity": -0.2127654105424881,
+        "angle": 0.0026051050517708063,
+        "angular_velocity": -0.020946595817804337,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 8
+      },
+      "reward_accumulated": 5.698297368885721,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 3,
+    "telemetry": "Altitude: 1.35. Position X: -0.02 (0 is center). Vertical Velocity: -0.23 (Negative is falling). Horizontal Velocity: -0.21. Angle: 0.00 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.35m, falling (-0.23m/s), drift increasing (-0.21m/s). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is 0.00 (upright), continuing to use MAIN_ENGINE to reduce descent rate. Drift is present but descent is still the primary concern. Duration set to 4 for continued braking."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.3345062732696533,
+        "horizontal_position": -0.025052357465028763,
+        "vertical_velocity": -0.166826531291008,
+        "horizontal_velocity": -0.2198300063610077,
+        "angle": -0.0008930956828407943,
+        "angular_velocity": -0.027508407831192017,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 12
+      },
+      "reward_accumulated": 3.9833344163011937,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 4,
+    "telemetry": "Altitude: 1.33. Position X: -0.03 (0 is center). Vertical Velocity: -0.17 (Negative is falling). Horizontal Velocity: -0.22. Angle: -0.00 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.33m, falling (-0.17m/s), drift increasing (-0.22m/s). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is -0.00 (upright), continue using MAIN_ENGINE to counteract descent. Descent rate is decreasing, but horizontal drift is increasing. Prioritizing vertical control. Duration set to 4 for continued braking."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.3217817544937134,
+        "horizontal_position": -0.03363742679357529,
+        "vertical_velocity": -0.11840835958719254,
+        "horizontal_velocity": -0.20940561592578888,
+        "angle": -0.0052053118124604225,
+        "angular_velocity": -0.017849290743470192,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 16
+      },
+      "reward_accumulated": 3.161942957275289,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 5,
+    "telemetry": "Altitude: 1.32. Position X: -0.03 (0 is center). Vertical Velocity: -0.12 (Negative is falling). Horizontal Velocity: -0.21. Angle: -0.01 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.32m, falling (-0.12m/s), drift (-0.21m/s) and angle (-0.01 rad) within safe limits. Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is -0.01 (nearly upright), continuing to use MAIN_ENGINE to reduce the current descent rate. Horizontal drift is stable. Duration set to 4 for continued braking."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.3134355545043945,
+        "horizontal_position": -0.042586613446474075,
+        "vertical_velocity": -0.05119858309626579,
+        "horizontal_velocity": -0.22477510571479797,
+        "angle": -0.011475658044219017,
+        "angular_velocity": -0.03500666469335556,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 20
+      },
+      "reward_accumulated": -0.015431192908136104,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 6,
+    "telemetry": "Altitude: 1.31. Position X: -0.04 (0 is center). Vertical Velocity: -0.05 (Negative is falling). Horizontal Velocity: -0.22. Angle: -0.01 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.31m, falling slowly (-0.05m/s), drift (-0.22m/s) and angle (-0.01 rad) within safe limits. Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.01 (nearly upright), descent rate is low (-0.05m/s). Using MAIN_ENGINE for a shorter duration (3) to gently counteract gravity and slow descent further."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.314060926437378,
+        "horizontal_position": -0.05014181137084961,
+        "vertical_velocity": 0.018585320562124252,
+        "horizontal_velocity": -0.25838908553123474,
+        "angle": -0.020558860152959824,
+        "angular_velocity": -0.07072870433330536,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 23
+      },
+      "reward_accumulated": -4.749902852453936,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 7,
+    "telemetry": "Altitude: 1.31. Position X: -0.05 (0 is center). Vertical Velocity: 0.02 (Negative is falling). Horizontal Velocity: -0.26. Angle: -0.02 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.31m, rising slightly (0.02m/s), drift increasing (-0.26m/s), angle (-0.02 rad) within safe limits. Recommendation: CUT ENGINES.",
+    "commander_decision": {
+      "action": "HOLD",
+      "duration": 7,
+      "reasoning": "Vertical velocity is now positive (0.02m/s), indicating a slight rise. Angle is close to 0.00 (-0.02 rad). Therefore, switching to HOLD to let gravity reduce altitude and counteract the slight upward momentum. Duration set to 7 to allow gravity to act for a significant period."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.300071120262146,
+        "horizontal_position": -0.0684804916381836,
+        "vertical_velocity": -0.169043630361557,
+        "horizontal_velocity": -0.25840330123901367,
+        "angle": -0.04530814290046692,
+        "angular_velocity": -0.07071191072463989,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 30
+      },
+      "reward_accumulated": -6.133359708976201,
+      "done": false,
+      "action_executed": "HOLD",
+      "duration": 7
+    }
+  },
+  {
+    "step": 8,
+    "telemetry": "Altitude: 1.30. Position X: -0.07 (0 is center). Vertical Velocity: -0.17 (Negative is falling). Horizontal Velocity: -0.26. Angle: -0.05 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.30m, falling (-0.17m/s), drift (-0.26m/s) and angle (-0.05 rad) within safe limits. Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is -0.05 (tilted left), but within safe limits. Vertical velocity is negative (-0.17m/s), indicating descent. Using MAIN_ENGINE to brake descent. Duration set to 4 for moderate braking."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2883787155151367,
+        "horizontal_position": -0.07815990597009659,
+        "vertical_velocity": -0.10225911438465118,
+        "horizontal_velocity": -0.23635509610176086,
+        "angle": -0.05716806277632713,
+        "angular_velocity": -0.06196184828877449,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 34
+      },
+      "reward_accumulated": 3.852299790806131,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 9,
+    "telemetry": "Altitude: 1.29. Position X: -0.08 (0 is center). Vertical Velocity: -0.10 (Negative is falling). Horizontal Velocity: -0.24. Angle: -0.06 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.29m, falling (-0.10m/s), drift (-0.24m/s) and angle (-0.06 rad) within safe limits. Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is -0.06 (tilted left), but within safe limits. Vertical velocity is negative (-0.10m/s), indicating descent. Using MAIN_ENGINE to brake descent. Duration set to 4 for moderate braking."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2818161249160767,
+        "horizontal_position": -0.08766765892505646,
+        "vertical_velocity": -0.04712322726845741,
+        "horizontal_velocity": -0.22212831676006317,
+        "angle": -0.0708601176738739,
+        "angular_velocity": -0.06297726929187775,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 38
+      },
+      "reward_accumulated": 1.0700934907769293,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 10,
+    "telemetry": "Altitude: 1.28. Position X: -0.09 (0 is center). Vertical Velocity: -0.05 (Negative is falling). Horizontal Velocity: -0.22. Angle: -0.07 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.28m, falling slowly (-0.05m/s), drift (-0.22m/s) and angle (-0.07 rad) within safe limits. Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.07 (tilted left), but within safe limits. Vertical velocity is low (-0.05m/s). Using MAIN_ENGINE for a shorter duration (3) to gently counteract gravity and slow descent further, as the rate is decreasing. Side drift is stable."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2799115180969238,
+        "horizontal_position": -0.09438972175121307,
+        "vertical_velocity": -0.008334977552294731,
+        "horizontal_velocity": -0.2131236046552658,
+        "angle": -0.0812397375702858,
+        "angular_velocity": -0.0672241598367691,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 41
+      },
+      "reward_accumulated": -0.4171117085202469,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 11,
+    "telemetry": "Altitude: 1.28. Position X: -0.09 (0 is center). Vertical Velocity: -0.01 (Negative is falling). Horizontal Velocity: -0.21. Angle: -0.08 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.28m, falling slowly (-0.01m/s) with moderate drift (-0.21m/s). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.08 (tilted left), but within safe limits. Vertical velocity is very low (-0.01m/s). Using MAIN_ENGINE for a short duration (3) to counteract the slight downward pull and stabilize vertical movement. Side drift is stable."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2829203605651855,
+        "horizontal_position": -0.09977082908153534,
+        "vertical_velocity": 0.07140257209539413,
+        "horizontal_velocity": -0.16041408479213715,
+        "angle": -0.08801674097776413,
+        "angular_velocity": -0.0357135608792305,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 44
+      },
+      "reward_accumulated": 1.851522275162955,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 12,
+    "telemetry": "Altitude: 1.28. Position X: -0.10 (0 is center). Vertical Velocity: 0.07 (Negative is falling). Horizontal Velocity: -0.16. Angle: -0.09 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.28m, rising slowly (0.07m/s) with moderate drift (-0.16m/s). Recommendation: CUT ENGINES.",
+    "commander_decision": {
+      "action": "HOLD",
+      "duration": 7,
+      "reasoning": "Vertical velocity is positive (0.07m/s), indicating the lander is rising. Angle is -0.09, slightly tilted left but within safe limits. Following navigator's advice to CUT ENGINES (HOLD) to allow gravity to reduce altitude and counteract upward momentum. Duration set to 7 to allow gravity to work effectively."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2773839235305786,
+        "horizontal_position": -0.1111261397600174,
+        "vertical_velocity": -0.11526595056056976,
+        "horizontal_velocity": -0.16041432321071625,
+        "angle": -0.10051646828651428,
+        "angular_velocity": -0.03571353852748871,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 51
+      },
+      "reward_accumulated": -2.985895598502225,
+      "done": false,
+      "action_executed": "HOLD",
+      "duration": 7
+    }
+  },
+  {
+    "step": 13,
+    "telemetry": "Altitude: 1.28. Position X: -0.11 (0 is center). Vertical Velocity: -0.12 (Negative is falling). Horizontal Velocity: -0.16. Angle: -0.10 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.28m, falling slightly (-0.12m/s) with moderate drift (-0.16m/s). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is -0.10 (tilted left), but still within safe limits. Vertical velocity is negative (-0.12m/s), indicating descent. Using MAIN_ENGINE to brake descent. Duration set to 4 for moderate braking."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2721714973449707,
+        "horizontal_position": -0.11691608279943466,
+        "vertical_velocity": -0.016264963895082474,
+        "horizontal_velocity": -0.12052198499441147,
+        "angle": -0.10796759277582169,
+        "angular_velocity": -0.028239455074071884,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 55
+      },
+      "reward_accumulated": 6.114253249678416,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 14,
+    "telemetry": "Altitude: 1.27. Position X: -0.12 (0 is center). Vertical Velocity: -0.02 (Negative is falling). Horizontal Velocity: -0.12. Angle: -0.11 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.27m, falling very slowly (-0.02m/s), drift within limits (-0.12m/s), angle slightly outside limits (-0.11 radians). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 2,
+      "reasoning": "Angle is -0.11, which is outside the safe limit of -0.1 (tilted left). Prioritizing angle correction by using RIGHT_ENGINE to rotate clockwise. Vertical velocity is low (-0.02m/s), so a short duration (2) is sufficient for correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2696655988693237,
+        "horizontal_position": -0.11955833435058594,
+        "vertical_velocity": -0.0687822625041008,
+        "horizontal_velocity": -0.13730928301811218,
+        "angle": -0.10565920919179916,
+        "angular_velocity": 0.039270494133234024,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 57
+      },
+      "reward_accumulated": -2.800033431626614,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 2
+    }
+  },
+  {
+    "step": 15,
+    "telemetry": "Altitude: 1.27. Position X: -0.12 (0 is center). Vertical Velocity: -0.07 (Negative is falling). Horizontal Velocity: -0.14. Angle: -0.11 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.27m, falling slightly (-0.07m/s), drift within limits (-0.14m/s), angle slightly outside limits (-0.11 radians). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 2,
+      "reasoning": "Angle is -0.11, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.07m/s, a short duration (2) for angle correction is appropriate before addressing vertical velocity."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2647731304168701,
+        "horizontal_position": -0.12247295677661896,
+        "vertical_velocity": -0.12157821655273438,
+        "horizontal_velocity": -0.15555784106254578,
+        "angle": -0.09651315957307816,
+        "angular_velocity": 0.1123858317732811,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 59
+      },
+      "reward_accumulated": -3.071941256293227,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 2
+    }
+  },
+  {
+    "step": 16,
+    "telemetry": "Altitude: 1.26. Position X: -0.12 (0 is center). Vertical Velocity: -0.12 (Negative is falling). Horizontal Velocity: -0.16. Angle: -0.10 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.26m, falling (-0.12m/s) with moderate drift (-0.16m/s). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is -0.10 (tilted left), but within safe limits. Vertical velocity is negative (-0.12m/s), indicating descent. Using MAIN_ENGINE to brake descent. Duration set to 4 for moderate braking."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2618861198425293,
+        "horizontal_position": -0.1277107298374176,
+        "vertical_velocity": 0.006616239435970783,
+        "horizontal_velocity": -0.11472032219171524,
+        "angle": -0.07451830804347992,
+        "angular_velocity": 0.12133476883172989,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 63
+      },
+      "reward_accumulated": 9.48730702473738,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 17,
+    "telemetry": "Altitude: 1.26. Position X: -0.13 (0 is center). Vertical Velocity: 0.01 (Negative is falling). Horizontal Velocity: -0.11. Angle: -0.07 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.26m, barely rising (0.01m/s), drift within limits (-0.11m/s), angle within limits (-0.07 radians). Recommendation: CUT ENGINES.",
+    "commander_decision": {
+      "action": "HOLD",
+      "duration": 7,
+      "reasoning": "Vertical velocity is positive (0.01m/s), indicating a slight rise. Angle is -0.07, within safe limits. Following navigator's advice to CUT ENGINES (HOLD) to allow gravity to reduce altitude and counteract the slight upward momentum. Duration set to 7 to allow gravity to act for a significant period."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.246091604232788,
+        "horizontal_position": -0.1353113204240799,
+        "vertical_velocity": -0.18007196485996246,
+        "horizontal_velocity": -0.11472225189208984,
+        "angle": -0.03205161914229393,
+        "angular_velocity": 0.1213325709104538,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 70
+      },
+      "reward_accumulated": -4.121831576953809,
+      "done": false,
+      "action_executed": "HOLD",
+      "duration": 7
+    }
+  },
+  {
+    "step": 18,
+    "telemetry": "Altitude: 1.25. Position X: -0.14 (0 is center). Vertical Velocity: -0.18 (Negative is falling). Horizontal Velocity: -0.11. Angle: -0.03 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.25m, falling (-0.18m/s) with drift within limits (-0.11m/s). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 5,
+      "reasoning": "Angle is -0.03 (tilted left), but within safe limits. Vertical velocity is negative (-0.18m/s), indicating descent. Using MAIN_ENGINE to brake descent. Duration set to 5 for moderate braking, as the descent rate has increased slightly."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2336980104446411,
+        "horizontal_position": -0.14059428870677948,
+        "vertical_velocity": -0.07375294715166092,
+        "horizontal_velocity": -0.11328431218862534,
+        "angle": -0.002359264064580202,
+        "angular_velocity": 0.11553417146205902,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 75
+      },
+      "reward_accumulated": 10.47601133978668,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 5
+    }
+  },
+  {
+    "step": 19,
+    "telemetry": "Altitude: 1.23. Position X: -0.14 (0 is center). Vertical Velocity: -0.07 (Negative is falling). Horizontal Velocity: -0.11. Angle: -0.00 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.23m, falling slowly (-0.07m/s), drift within limits (-0.11m/s), angle stable (0.00 radians). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is 0.00 (upright). Vertical velocity is negative (-0.07m/s), indicating slow descent. Using MAIN_ENGINE to brake descent. Duration set to 4 for moderate braking, as the descent rate is manageable."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.229872703552246,
+        "horizontal_position": -0.14457206428050995,
+        "vertical_velocity": -0.03534594923257828,
+        "horizontal_velocity": -0.1066272035241127,
+        "angle": 0.02229485660791397,
+        "angular_velocity": 0.12314244359731674,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 79
+      },
+      "reward_accumulated": -0.5748955657599142,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 20,
+    "telemetry": "Altitude: 1.23. Position X: -0.14 (0 is center). Vertical Velocity: -0.04 (Negative is falling). Horizontal Velocity: -0.11. Angle: 0.02 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.23m, falling slowly (-0.04m/s), drift within limits (-0.11m/s), angle within limits (0.02 radians). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is 0.02 (tilted right), but within safe limits. Vertical velocity is negative (-0.04m/s), indicating slow descent. Using MAIN_ENGINE for a shorter duration (3) to gently counteract gravity and slow descent further. Side drift is stable."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2299987077713013,
+        "horizontal_position": -0.1482221633195877,
+        "vertical_velocity": 0.03478974848985672,
+        "horizontal_velocity": -0.12831151485443115,
+        "angle": 0.038316890597343445,
+        "angular_velocity": 0.10835425555706024,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 82
+      },
+      "reward_accumulated": -4.61898685700529,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 21,
+    "telemetry": "Altitude: 1.23. Position X: -0.15 (0 is center). Vertical Velocity: 0.03 (Negative is falling). Horizontal Velocity: -0.13. Angle: 0.04 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.23m, rising slightly (0.03m/s). Recommendation: CUT ENGINES.",
+    "commander_decision": {
+      "action": "HOLD",
+      "duration": 7,
+      "reasoning": "Vertical velocity is positive (0.03m/s), indicating a slight rise. Angle is 0.04, within safe limits. Following navigator's advice to CUT ENGINES (HOLD) to allow gravity to reduce altitude and counteract the slight upward momentum. Duration set to 7 to allow gravity to act for a significant period."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2187094688415527,
+        "horizontal_position": -0.15682010352611542,
+        "vertical_velocity": -0.15189409255981445,
+        "horizontal_velocity": -0.1283101588487625,
+        "angle": 0.07624053955078125,
+        "angular_velocity": 0.10835274308919907,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 89
+      },
+      "reward_accumulated": -9.367464922799257,
+      "done": false,
+      "action_executed": "HOLD",
+      "duration": 7
+    }
+  },
+  {
+    "step": 22,
+    "telemetry": "Altitude: 1.22. Position X: -0.16 (0 is center). Vertical Velocity: -0.15 (Negative is falling). Horizontal Velocity: -0.13. Angle: 0.08 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.22m, falling (-0.15m/s) with a slight angle (0.08 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is 0.08 (tilted right), but within safe limits. Vertical velocity is negative (-0.15m/s), indicating descent. Using MAIN_ENGINE to brake descent. Duration set to 4 for moderate braking, as the descent rate has increased."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.209270715713501,
+        "horizontal_position": -0.16240234673023224,
+        "vertical_velocity": -0.0916547030210495,
+        "horizontal_velocity": -0.15533025562763214,
+        "angle": 0.09735160320997238,
+        "angular_velocity": 0.10234813392162323,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 93
+      },
+      "reward_accumulated": -0.6001025219911584,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 23,
+    "telemetry": "Altitude: 1.21. Position X: -0.16 (0 is center). Vertical Velocity: -0.09 (Negative is falling). Horizontal Velocity: -0.16. Angle: 0.10 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.21m, falling (-0.09m/s) with increasing horizontal drift (-0.16m/s) and angle at the limit (0.10 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 2,
+      "reasoning": "Angle is 0.10, which is at the limit and requires correction. Critical angle correction rule states to fix angle first before using MAIN_ENGINE. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.09m/s, so a short duration (2) for angle correction is appropriate."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.2033897638320923,
+        "horizontal_position": -0.1651427298784256,
+        "vertical_velocity": -0.1439681351184845,
+        "horizontal_velocity": -0.13391800224781036,
+        "angle": 0.10094865411520004,
+        "angular_velocity": 0.016246866434812546,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 95
+      },
+      "reward_accumulated": -1.5006426301101476,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 2
+    }
+  },
+  {
+    "step": 24,
+    "telemetry": "Altitude: 1.20. Position X: -0.17 (0 is center). Vertical Velocity: -0.14 (Negative is falling). Horizontal Velocity: -0.13. Angle: 0.10 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.20m, falling (-0.14m/s) with slight drift (-0.13m/s) and angle at the limit (0.10 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 2,
+      "reasoning": "Angle is 0.10, which is at the limit and requires correction. Critical angle correction rule states to fix angle first before using MAIN_ENGINE. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.14m/s, a short duration (2) for angle correction is appropriate before addressing vertical velocity."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.1951600313186646,
+        "horizontal_position": -0.16755704581737518,
+        "vertical_velocity": -0.19567133486270905,
+        "horizontal_velocity": -0.1125025749206543,
+        "angle": 0.0962812528014183,
+        "angular_velocity": -0.07033264636993408,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 97
+      },
+      "reward_accumulated": -1.7196993608401931,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 2
+    }
+  },
+  {
+    "step": 25,
+    "telemetry": "Altitude: 1.20. Position X: -0.17 (0 is center). Vertical Velocity: -0.20 (Negative is falling). Horizontal Velocity: -0.11. Angle: 0.10 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.20m, falling faster (-0.20m/s) with horizontal velocity within limits (-0.11m/s) and angle at the limit (0.10 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is 0.10, which is at the limit and requires correction. Critical angle correction rule states to fix angle first before using MAIN_ENGINE. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.20m/s, so a slightly longer duration (3) for angle correction is needed to also start braking descent."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.1784234046936035,
+        "horizontal_position": -0.17056617140769958,
+        "vertical_velocity": -0.2738070785999298,
+        "horizontal_velocity": -0.08275631070137024,
+        "angle": 0.07373769581317902,
+        "angular_velocity": -0.1902959942817688,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 100
+      },
+      "reward_accumulated": -2.2543651048505318,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 26,
+    "telemetry": "Altitude: 1.18. Position X: -0.17 (0 is center). Vertical Velocity: -0.27 (Negative is falling). Horizontal Velocity: -0.08. Angle: 0.07 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.18m, falling significantly (-0.27m/s) but horizontal velocity is good (-0.08m/s) and angle is acceptable (0.07 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 5,
+      "reasoning": "Angle is 0.07 (tilted right), within safe limits. Vertical velocity is negative (-0.27m/s), indicating significant descent. Using MAIN_ENGINE to brake descent. Duration set to 5 for moderate braking, as the descent rate has increased significantly."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.1586105823516846,
+        "horizontal_position": -0.17668399214744568,
+        "vertical_velocity": -0.13202625513076782,
+        "horizontal_velocity": -0.11764845997095108,
+        "angle": 0.023066256195306778,
+        "angular_velocity": -0.2016545534133911,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 105
+      },
+      "reward_accumulated": 16.357077162089013,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 5
+    }
+  },
+  {
+    "step": 27,
+    "telemetry": "Altitude: 1.16. Position X: -0.18 (0 is center). Vertical Velocity: -0.13 (Negative is falling). Horizontal Velocity: -0.12. Angle: 0.02 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.16m, falling (-0.13m/s) with slight drift (-0.12m/s) and stable angle (0.02 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is 0.02 (tilted right), within safe limits. Vertical velocity is negative (-0.13m/s), indicating descent. Using MAIN_ENGINE to brake descent. Duration set to 4 for moderate braking, as the descent rate is manageable."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.1493761539459229,
+        "horizontal_position": -0.18126973509788513,
+        "vertical_velocity": -0.07611976563930511,
+        "horizontal_velocity": -0.08683894574642181,
+        "angle": -0.014500780962407589,
+        "angular_velocity": -0.17011621594429016,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 109
+      },
+      "reward_accumulated": 6.634885713403879,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 28,
+    "telemetry": "Altitude: 1.15. Position X: -0.18 (0 is center). Vertical Velocity: -0.08 (Negative is falling). Horizontal Velocity: -0.09. Angle: -0.01 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.15m, falling slowly (-0.08m/s) with drift and angle within safe limits. Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.01 (nearly upright), within safe limits. Vertical velocity is negative (-0.08m/s), indicating slow descent. Using MAIN_ENGINE for a shorter duration (3) to gently counteract gravity and slow descent further. Side drift is stable."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.1453537940979004,
+        "horizontal_position": -0.18430852890014648,
+        "vertical_velocity": -0.06213731691241264,
+        "horizontal_velocity": -0.08607170730829239,
+        "angle": -0.04110042750835419,
+        "angular_velocity": -0.17232075333595276,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 112
+      },
+      "reward_accumulated": -2.278450510131643,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 29,
+    "telemetry": "Altitude: 1.15. Position X: -0.18 (0 is center). Vertical Velocity: -0.06 (Negative is falling). Horizontal Velocity: -0.09. Angle: -0.04 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.15m, falling very slowly (-0.06m/s) with drift and angle within safe limits. Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.04 (tilted left), within safe limits. Vertical velocity is negative (-0.06m/s), indicating very slow descent. Using MAIN_ENGINE for a short duration (3) to gently counteract gravity and slow descent further. Side drift is stable."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.1446350812911987,
+        "horizontal_position": -0.18674011528491974,
+        "vertical_velocity": 0.01034316886216402,
+        "horizontal_velocity": -0.06117101386189461,
+        "angle": -0.0660659670829773,
+        "angular_velocity": -0.15911535918712616,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 115
+      },
+      "reward_accumulated": 1.0473042374376063,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 30,
+    "telemetry": "Altitude: 1.14. Position X: -0.19 (0 is center). Vertical Velocity: 0.01 (Negative is falling). Horizontal Velocity: -0.06. Angle: -0.07 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.14m, slightly rising (0.01m/s) with good horizontal velocity (-0.06m/s) and angle within limits (-0.07 rad). Recommendation: CUT ENGINES.",
+    "commander_decision": {
+      "action": "HOLD",
+      "duration": 7,
+      "reasoning": "Vertical velocity is positive (0.01m/s), indicating a slight rise. Angle is -0.07, within safe limits. Following navigator's advice to CUT ENGINES (HOLD) to allow gravity to reduce altitude and counteract the slight upward momentum. Duration set to 7 to allow gravity to act for a significant period."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.129540205001831,
+        "horizontal_position": -0.19158382713794708,
+        "vertical_velocity": -0.17636045813560486,
+        "horizontal_velocity": -0.06117575615644455,
+        "angle": -0.12175539135932922,
+        "angular_velocity": -0.15911051630973816,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 122
+      },
+      "reward_accumulated": -16.62242519493651,
+      "done": false,
+      "action_executed": "HOLD",
+      "duration": 7
+    }
+  },
+  {
+    "step": 31,
+    "telemetry": "Altitude: 1.13. Position X: -0.19 (0 is center). Vertical Velocity: -0.18 (Negative is falling). Horizontal Velocity: -0.06. Angle: -0.12 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.13m, falling (-0.18m/s) with slight drift (-0.06m/s) and angle at the limit (-0.12 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 2,
+      "reasoning": "Angle is -0.12, which is outside the safe limit of -0.1 (tilted left). Prioritizing angle correction. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.18m/s, so a short duration (2) for angle correction is appropriate before addressing vertical velocity."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.1198711395263672,
+        "horizontal_position": -0.19317904114723206,
+        "vertical_velocity": -0.228502094745636,
+        "horizontal_velocity": -0.07904849946498871,
+        "angle": -0.1322868913412094,
+        "angular_velocity": -0.08697400242090225,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 124
+      },
+      "reward_accumulated": -5.698936026413404,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 2
+    }
+  },
+  {
+    "step": 32,
+    "telemetry": "Altitude: 1.12. Position X: -0.19 (0 is center). Vertical Velocity: -0.23 (Negative is falling). Horizontal Velocity: -0.08. Angle: -0.13 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.12m, falling faster (-0.23m/s) with slight drift (-0.08m/s) and angle outside safe limits (-0.13 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.13, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.23m/s, so a slightly longer duration (3) for angle correction is needed to also start braking descent."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.100926399230957,
+        "horizontal_position": -0.19615983963012695,
+        "vertical_velocity": -0.30686500668525696,
+        "horizontal_velocity": -0.10872982442378998,
+        "angle": -0.1332581341266632,
+        "angular_velocity": 0.03248968720436096,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 127
+      },
+      "reward_accumulated": -6.749533534434217,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 33,
+    "telemetry": "Altitude: 1.10. Position X: -0.20 (0 is center). Vertical Velocity: -0.31 (Negative is falling). Horizontal Velocity: -0.11. Angle: -0.13 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.10m, falling rapidly (-0.31m/s) with increasing drift (-0.11m/s) and angle outside safe limits (-0.13 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.13, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.31m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.0767338275909424,
+        "horizontal_position": -0.19986028969287872,
+        "vertical_velocity": -0.38390052318573,
+        "horizontal_velocity": -0.13972623646259308,
+        "angle": -0.11586666852235794,
+        "angular_velocity": 0.15852507948875427,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 130
+      },
+      "reward_accumulated": -4.334785995809792,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 34,
+    "telemetry": "Altitude: 1.08. Position X: -0.20 (0 is center). Vertical Velocity: -0.38 (Negative is falling). Horizontal Velocity: -0.14. Angle: -0.12 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.08m, falling very rapidly (-0.38m/s) with increasing drift (-0.14m/s) and angle near the limit (-0.12 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.12, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.38m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 1.0472897291183472,
+        "horizontal_position": -0.20426377654075623,
+        "vertical_velocity": -0.4615502655506134,
+        "horizontal_velocity": -0.16883060336112976,
+        "angle": -0.08055736124515533,
+        "angular_velocity": 0.2763800323009491,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 133
+      },
+      "reward_accumulated": -2.0410673882983836,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 35,
+    "telemetry": "Altitude: 1.05. Position X: -0.20 (0 is center). Vertical Velocity: -0.46 (Negative is falling). Horizontal Velocity: -0.17. Angle: -0.08 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.05m, falling very rapidly (-0.46m/s) with increasing drift (-0.17m/s) and angle within limits (-0.08 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 6,
+      "reasoning": "Angle is -0.08 (tilted left), within safe limits. Vertical velocity is negative (-0.46m/s), indicating very rapid descent. Using MAIN_ENGINE to brake descent. Duration set to 6 for significant braking, as the descent rate is critical. Horizontal drift is also increasing and will need attention after descent is controlled."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.9959143996238708,
+        "horizontal_position": -0.21253499388694763,
+        "vertical_velocity": -0.30843302607536316,
+        "horizontal_velocity": -0.15013033151626587,
+        "angle": 0.0030790718737989664,
+        "angular_velocity": 0.2747708261013031,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 139
+      },
+      "reward_accumulated": 25.6590669637916,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 6
+    }
+  },
+  {
+    "step": 36,
+    "telemetry": "Altitude: 1.00. Position X: -0.21 (0 is center). Vertical Velocity: -0.31 (Negative is falling). Horizontal Velocity: -0.15. Angle: 0.00 radians. Status: Flying.",
+    "navigator_advice": "Altitude 1.00m, falling (-0.31m/s) with increasing drift (-0.15m/s) and angle stable (0.00 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 5,
+      "reasoning": "Angle is 0.00 (upright). Vertical velocity is negative (-0.31m/s), indicating rapid descent. Using MAIN_ENGINE to brake descent. Duration set to 5 for significant braking, as the descent rate is still critical. Horizontal drift needs to be monitored."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.9683019518852234,
+        "horizontal_position": -0.22084268927574158,
+        "vertical_velocity": -0.21411661803722382,
+        "horizontal_velocity": -0.19914796948432922,
+        "angle": 0.06575604528188705,
+        "angular_velocity": 0.23612487316131592,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 144
+      },
+      "reward_accumulated": -0.18867244642805775,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 5
+    }
+  },
+  {
+    "step": 37,
+    "telemetry": "Altitude: 0.97. Position X: -0.22 (0 is center). Vertical Velocity: -0.21 (Negative is falling). Horizontal Velocity: -0.20. Angle: 0.07 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.97m, falling (-0.21m/s) with significant drift (-0.20m/s) and angle within limits (0.07 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is 0.07 (tilted right), within safe limits. Vertical velocity is negative (-0.21m/s), indicating descent. Using MAIN_ENGINE to brake descent. Duration set to 4 for moderate braking, as the descent rate has reduced but is still significant. Horizontal drift is also a concern."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.9518668055534363,
+        "horizontal_position": -0.23006300628185272,
+        "vertical_velocity": -0.15824276208877563,
+        "horizontal_velocity": -0.2609546184539795,
+        "angle": 0.1070786789059639,
+        "angular_velocity": 0.19589821994304657,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 148
+      },
+      "reward_accumulated": -5.220234322502802,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 38,
+    "telemetry": "Altitude: 0.95. Position X: -0.23 (0 is center). Vertical Velocity: -0.16 (Negative is falling). Horizontal Velocity: -0.26. Angle: 0.11 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.95m, falling (-0.16m/s) with significant drift (-0.26m/s) and angle at the limit (0.11 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 2,
+      "reasoning": "Angle is 0.11, which is at the limit and requires correction. Critical angle correction rule states to fix angle first before using MAIN_ENGINE. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.16m/s, so a short duration (2) for angle correction is appropriate before addressing vertical velocity and horizontal drift."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.9429971575737,
+        "horizontal_position": -0.2348802089691162,
+        "vertical_velocity": -0.21072611212730408,
+        "horizontal_velocity": -0.24407772719860077,
+        "angle": 0.12151093035936356,
+        "angular_velocity": 0.12799584865570068,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 150
+      },
+      "reward_accumulated": -2.4839257700393182,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 2
+    }
+  },
+  {
+    "step": 39,
+    "telemetry": "Altitude: 0.94. Position X: -0.23 (0 is center). Vertical Velocity: -0.21 (Negative is falling). Horizontal Velocity: -0.24. Angle: 0.12 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.94m, falling (-0.21m/s) with significant drift (-0.24m/s) and angle outside safe limits (0.12 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is 0.12, which is outside the safe limit of 0.1 (tilted right). Angle correction is critical. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.21m/s, so a slightly longer duration (3) for angle correction is needed to also start braking the descent."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.9252609610557556,
+        "horizontal_position": -0.24159078299999237,
+        "vertical_velocity": -0.2889898121356964,
+        "horizontal_velocity": -0.21790938079357147,
+        "angle": 0.13012434542179108,
+        "angular_velocity": 0.0223560594022274,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 153
+      },
+      "reward_accumulated": -3.346617514823233,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 40,
+    "telemetry": "Altitude: 0.93. Position X: -0.24 (0 is center). Vertical Velocity: -0.29 (Negative is falling). Horizontal Velocity: -0.22. Angle: 0.13 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.93m, falling (-0.29m/s) with significant drift (-0.22m/s) and angle outside safe limits (0.13 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is 0.13, which is outside the safe limit of 0.1 (tilted right). Angle correction is critical. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.29m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.9022144675254822,
+        "horizontal_position": -0.2476993054151535,
+        "vertical_velocity": -0.3670431077480316,
+        "horizontal_velocity": -0.19299830496311188,
+        "angle": 0.12347880750894547,
+        "angular_velocity": -0.07847783714532852,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 156
+      },
+      "reward_accumulated": -2.632508544957485,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 41,
+    "telemetry": "Altitude: 0.90. Position X: -0.25 (0 is center). Vertical Velocity: -0.37 (Negative is falling). Horizontal Velocity: -0.19. Angle: 0.12 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.90m, falling fast (-0.37m/s) with significant horizontal drift (-0.19) and angle at the limit (0.12 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is 0.12, which is outside the safe limit of 0.1 (tilted right). Angle correction is critical. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.37m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.8738947510719299,
+        "horizontal_position": -0.25313830375671387,
+        "vertical_velocity": -0.4449939727783203,
+        "horizontal_velocity": -0.1641388088464737,
+        "angle": 0.099799245595932,
+        "angular_velocity": -0.1950913518667221,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 159
+      },
+      "reward_accumulated": -1.1049767398740722,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 42,
+    "telemetry": "Altitude: 0.87. Position X: -0.25 (0 is center). Vertical Velocity: -0.44 (Negative is falling). Horizontal Velocity: -0.16. Angle: 0.10 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.87m, falling faster (-0.44m/s) with significant horizontal drift (-0.16) and angle at the limit (0.10 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 2,
+      "reasoning": "Angle is 0.10, which is at the limit and requires correction. Critical angle correction rule states to fix angle first before using MAIN_ENGINE. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.44m/s, so a short duration (2) for angle correction is appropriate before addressing vertical velocity and horizontal drift."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.8520874381065369,
+        "horizontal_position": -0.2563633918762207,
+        "vertical_velocity": -0.4967697560787201,
+        "horizontal_velocity": -0.14253728091716766,
+        "angle": 0.07383350282907486,
+        "angular_velocity": -0.2823302149772644,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 161
+      },
+      "reward_accumulated": 0.28538435849958654,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 2
+    }
+  },
+  {
+    "step": 43,
+    "telemetry": "Altitude: 0.85. Position X: -0.26 (0 is center). Vertical Velocity: -0.50 (Negative is falling). Horizontal Velocity: -0.14. Angle: 0.07 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.85m, falling rapidly (-0.50m/s) with significant horizontal drift (-0.14). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 6,
+      "reasoning": "Angle is 0.07 (tilted right), within safe limits. Vertical velocity is negative (-0.50m/s), indicating rapid descent. Using MAIN_ENGINE to brake descent. Duration set to 6 for significant braking, as the descent rate is critical. Horizontal drift is also significant and will need attention after descent is controlled."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.7943078279495239,
+        "horizontal_position": -0.265519380569458,
+        "vertical_velocity": -0.3675149083137512,
+        "horizontal_velocity": -0.12688741087913513,
+        "angle": -0.006404715124517679,
+        "angular_velocity": -0.2511957883834839,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 167
+      },
+      "reward_accumulated": 22.974639543336746,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 6
+    }
+  },
+  {
+    "step": 44,
+    "telemetry": "Altitude: 0.79. Position X: -0.27 (0 is center). Vertical Velocity: -0.37 (Negative is falling). Horizontal Velocity: -0.13. Angle: -0.01 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.79m, falling (-0.37m/s) with significant horizontal drift (-0.13). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 5,
+      "reasoning": "Angle is -0.01 (nearly upright), within safe limits. Vertical velocity is negative (-0.37m/s), indicating rapid descent. Using MAIN_ENGINE to brake descent. Duration set to 5 for significant braking, as the descent rate is still critical. Horizontal drift needs to be monitored."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.7575845718383789,
+        "horizontal_position": -0.27119630575180054,
+        "vertical_velocity": -0.3140009939670563,
+        "horizontal_velocity": -0.09322814643383026,
+        "angle": -0.06405562907457352,
+        "angular_velocity": -0.22588662803173065,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 172
+      },
+      "reward_accumulated": 2.14521426458849,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 5
+    }
+  },
+  {
+    "step": 45,
+    "telemetry": "Altitude: 0.76. Position X: -0.27 (0 is center). Vertical Velocity: -0.31 (Negative is falling). Horizontal Velocity: -0.09. Angle: -0.06 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.76m, falling (-0.31m/s) with minor horizontal drift (-0.09). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 5,
+      "reasoning": "Angle is -0.06 (tilted left), within safe limits. Vertical velocity is negative (-0.31m/s), indicating rapid descent. Using MAIN_ENGINE to brake descent. Duration set to 5 for significant braking, as the descent rate is still critical. Horizontal drift is decreasing."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.7303571105003357,
+        "horizontal_position": -0.274863064289093,
+        "vertical_velocity": -0.2022182047367096,
+        "horizontal_velocity": -0.050305742770433426,
+        "angle": -0.11742784082889557,
+        "angular_velocity": -0.21444061398506165,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 177
+      },
+      "reward_accumulated": 7.509139397639289,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 5
+    }
+  },
+  {
+    "step": 46,
+    "telemetry": "Altitude: 0.73. Position X: -0.27 (0 is center). Vertical Velocity: -0.20 (Negative is falling). Horizontal Velocity: -0.05. Angle: -0.12 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.73m, falling (-0.20m/s) with minor horizontal drift (-0.05) and angle outside limits (-0.12 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 2,
+      "reasoning": "Angle is -0.12, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.20m/s, so a short duration (2) for angle correction is appropriate before addressing vertical velocity."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.7195178270339966,
+        "horizontal_position": -0.27632850408554077,
+        "vertical_velocity": -0.25464001297950745,
+        "horizontal_velocity": -0.06994833052158356,
+        "angle": -0.13273411989212036,
+        "angular_velocity": -0.13550738990306854,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 179
+      },
+      "reward_accumulated": -6.198625930707519,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 2
+    }
+  },
+  {
+    "step": 47,
+    "telemetry": "Altitude: 0.72. Position X: -0.28 (0 is center). Vertical Velocity: -0.25 (Negative is falling). Horizontal Velocity: -0.07. Angle: -0.13 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.72m, falling (-0.25m/s) with significant horizontal drift (-0.07) and angle outside limits (-0.13 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.13, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.25m/s, so a slightly longer duration (3) for angle correction is needed to also start braking the descent."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.698849618434906,
+        "horizontal_position": -0.2791481018066406,
+        "vertical_velocity": -0.3320632576942444,
+        "horizontal_velocity": -0.1028468981385231,
+        "angle": -0.1399472951889038,
+        "angular_velocity": -0.0023024356923997402,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 182
+      },
+      "reward_accumulated": -7.344980365812656,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 48,
+    "telemetry": "Altitude: 0.70. Position X: -0.28 (0 is center). Vertical Velocity: -0.33 (Negative is falling). Horizontal Velocity: -0.10. Angle: -0.14 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.70m, falling fast (-0.33m/s) with significant horizontal drift (-0.10) and angle outside limits (-0.14 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.14, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.33m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.6729592680931091,
+        "horizontal_position": -0.28270307183265686,
+        "vertical_velocity": -0.40896284580230713,
+        "horizontal_velocity": -0.13149112462997437,
+        "angle": -0.12832188606262207,
+        "angular_velocity": 0.11455806344747543,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 185
+      },
+      "reward_accumulated": -4.862039302330228,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 49,
+    "telemetry": "Altitude: 0.67. Position X: -0.28 (0 is center). Vertical Velocity: -0.41 (Negative is falling). Horizontal Velocity: -0.13. Angle: -0.13 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.67m, falling very fast (-0.41m/s) with significant horizontal drift (-0.13) and angle outside limits (-0.13 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.13, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.41m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.6418077349662781,
+        "horizontal_position": -0.2869328558444977,
+        "vertical_velocity": -0.48651108145713806,
+        "horizontal_velocity": -0.1586666852235794,
+        "angle": -0.09949685633182526,
+        "angular_velocity": 0.22480376064777374,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 188
+      },
+      "reward_accumulated": -2.7322951958453494,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 50,
+    "telemetry": "Altitude: 0.64. Position X: -0.29 (0 is center). Vertical Velocity: -0.49 (Negative is falling). Horizontal Velocity: -0.16. Angle: -0.10 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.64m, falling extremely fast (-0.49m/s) with significant horizontal drift (-0.16) and angle approaching limits (-0.10 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 6,
+      "reasoning": "Angle is -0.10 (tilted left), at the limit but acceptable for now. Vertical velocity is negative (-0.49m/s), indicating extremely fast descent. Using MAIN_ENGINE to brake descent. Duration set to 6 for significant braking, as the descent rate is critical. Horizontal drift is also significant."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.5845900177955627,
+        "horizontal_position": -0.29532837867736816,
+        "vertical_velocity": -0.37755343317985535,
+        "horizontal_velocity": -0.1350734978914261,
+        "angle": -0.03536388650536537,
+        "angular_velocity": 0.21900296211242676,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 194
+      },
+      "reward_accumulated": 20.49491581519946,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 6
+    }
+  },
+  {
+    "step": 51,
+    "telemetry": "Altitude: 0.58. Position X: -0.30 (0 is center). Vertical Velocity: -0.38 (Negative is falling). Horizontal Velocity: -0.14. Angle: -0.04 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.58m, falling fast (-0.38m/s) with significant horizontal drift (-0.14m/s). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 6,
+      "reasoning": "Angle is -0.04 (tilted left), within safe limits. Vertical velocity is negative (-0.38m/s), indicating fast descent. Using MAIN_ENGINE to brake descent. Duration set to 6 for significant braking, as the descent rate is critical. Horizontal drift needs to be monitored."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.5398520827293396,
+        "horizontal_position": -0.3027554154396057,
+        "vertical_velocity": -0.26450037956237793,
+        "horizontal_velocity": -0.10896120220422745,
+        "angle": 0.029558736830949783,
+        "angular_velocity": 0.24241144955158234,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 200
+      },
+      "reward_accumulated": 13.873066097208575,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 6
+    }
+  },
+  {
+    "step": 52,
+    "telemetry": "Altitude: 0.54. Position X: -0.30 (0 is center). Vertical Velocity: -0.26 (Negative is falling). Horizontal Velocity: -0.11. Angle: 0.03 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.54m, falling (-0.26m/s) with moderate horizontal drift (-0.11m/s). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 5,
+      "reasoning": "Angle is 0.03 (tilted right), within safe limits. Vertical velocity is negative (-0.26m/s), indicating descent. Using MAIN_ENGINE to brake descent. Duration set to 5 for significant braking, as the descent rate is still critical. Horizontal drift is moderate."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.5198886394500732,
+        "horizontal_position": -0.30852827429771423,
+        "vertical_velocity": -0.12881635129451752,
+        "horizontal_velocity": -0.13038396835327148,
+        "angle": 0.08835267275571823,
+        "angular_velocity": 0.24178917706012726,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 205
+      },
+      "reward_accumulated": 4.339231305219216,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 5
+    }
+  },
+  {
+    "step": 53,
+    "telemetry": "Altitude: 0.52. Position X: -0.31 (0 is center). Vertical Velocity: -0.13 (Negative is falling). Horizontal Velocity: -0.13. Angle: 0.09 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.52m, falling slowly (-0.13m/s) with increasing horizontal drift (-0.13m/s) and the angle is nearing the limit (0.09 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is 0.09 (tilted right), within safe limits but nearing the limit. Vertical velocity is negative (-0.13m/s), indicating slow descent. Using MAIN_ENGINE to brake descent. Duration set to 4 for moderate braking, as the descent rate is manageable. Horizontal drift is increasing and will require attention after descent is controlled."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.511062741279602,
+        "horizontal_position": -0.3151260316371918,
+        "vertical_velocity": -0.060102589428424835,
+        "horizontal_velocity": -0.20274405181407928,
+        "angle": 0.13085854053497314,
+        "angular_velocity": 0.1994829624891281,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 209
+      },
+      "reward_accumulated": -7.854872034765659,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 54,
+    "telemetry": "Altitude: 0.51. Position X: -0.32 (0 is center). Vertical Velocity: -0.06 (Negative is falling). Horizontal Velocity: -0.20. Angle: 0.13 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.51m, falling very slowly (-0.06m/s) but with high horizontal drift (-0.20m/s) and the angle is outside safe limits (0.13 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 2,
+      "reasoning": "Angle is 0.13, which is outside the safe limit of 0.1 (tilted right). Angle correction is critical. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.06m/s, so a short duration (2) for angle correction is appropriate before addressing vertical velocity and horizontal drift."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.5066337585449219,
+        "horizontal_position": -0.318739116191864,
+        "vertical_velocity": -0.1120057925581932,
+        "horizontal_velocity": -0.1838551163673401,
+        "angle": 0.14468833804130554,
+        "angular_velocity": 0.12304645776748657,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 211
+      },
+      "reward_accumulated": -1.6401356092251667,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 2
+    }
+  },
+  {
+    "step": 55,
+    "telemetry": "Altitude: 0.51. Position X: -0.32 (0 is center). Vertical Velocity: -0.11 (Negative is falling). Horizontal Velocity: -0.18. Angle: 0.14 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.51m, falling (-0.11m/s) with high horizontal drift (-0.18m/s) and the angle is outside safe limits (0.14 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is 0.14, which is outside the safe limit of 0.1 (tilted right). Angle correction is critical. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.11m/s, so a slightly longer duration (3) for angle correction is needed to also start braking the descent."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.4956350326538086,
+        "horizontal_position": -0.32356876134872437,
+        "vertical_velocity": -0.18878166377544403,
+        "horizontal_velocity": -0.15165135264396667,
+        "angle": 0.1503015160560608,
+        "angular_velocity": -0.008119063451886177,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 214
+      },
+      "reward_accumulated": -2.6723203090312175,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 56,
+    "telemetry": "Altitude: 0.50. Position X: -0.32 (0 is center). Vertical Velocity: -0.19 (Negative is falling). Horizontal Velocity: -0.15. Angle: 0.15 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.50m, falling fast (-0.19m/s) with high horizontal drift (-0.15m/s) and the angle is outside safe limits (0.15 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is 0.15, which is outside the safe limit of 0.1 (tilted right). Angle correction is critical. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.19m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.4793475866317749,
+        "horizontal_position": -0.32770538330078125,
+        "vertical_velocity": -0.26680395007133484,
+        "horizontal_velocity": -0.12345178425312042,
+        "angle": 0.138327494263649,
+        "angular_velocity": -0.12203099578619003,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 217
+      },
+      "reward_accumulated": -2.9511338040569903,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 57,
+    "telemetry": "Altitude: 0.48. Position X: -0.33 (0 is center). Vertical Velocity: -0.27 (Negative is falling). Horizontal Velocity: -0.12. Angle: 0.14 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.48m, falling fast (-0.27m/s) with moderate horizontal drift (-0.12m/s) and the angle is outside safe limits (0.14 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is 0.14, which is outside the safe limit of 0.1 (tilted right). Angle correction is critical. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.27m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.4578392207622528,
+        "horizontal_position": -0.33108964562416077,
+        "vertical_velocity": -0.3433242738246918,
+        "horizontal_velocity": -0.09160538017749786,
+        "angle": 0.1070978194475174,
+        "angular_velocity": -0.2519221007823944,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 220
+      },
+      "reward_accumulated": -1.537640108520517,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 58,
+    "telemetry": "Altitude: 0.46. Position X: -0.33 (0 is center). Vertical Velocity: -0.34 (Negative is falling). Horizontal Velocity: -0.09. Angle: 0.11 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.46m, falling very fast (-0.34m/s) with minimal horizontal drift (-0.09m/s) and the angle is outside safe limits (0.11 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 2,
+      "reasoning": "Angle is 0.11, which is at the limit and requires correction. Critical angle correction rule states to fix angle first before using MAIN_ENGINE. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.34m/s, so a short duration (2) for angle correction is appropriate before addressing vertical velocity and horizontal drift."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.44060641527175903,
+        "horizontal_position": -0.33292156457901,
+        "vertical_velocity": -0.39506977796554565,
+        "horizontal_velocity": -0.07190258800983429,
+        "angle": 0.07543246448040009,
+        "angular_velocity": -0.3316572308540344,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 222
+      },
+      "reward_accumulated": -0.23899364868765133,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 2
+    }
+  },
+  {
+    "step": 59,
+    "telemetry": "Altitude: 0.44. Position X: -0.33 (0 is center). Vertical Velocity: -0.40 (Negative is falling). Horizontal Velocity: -0.07. Angle: 0.08 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.44m, falling very fast (-0.40m/s) with minimal horizontal drift (-0.07m/s) and the angle is within safe limits (0.08 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 6,
+      "reasoning": "Angle is 0.08 (tilted right), within safe limits. Vertical velocity is negative (-0.40m/s), indicating very fast descent. Using MAIN_ENGINE to brake descent. Duration set to 6 for significant braking, as the descent rate is critical. Horizontal drift is minimal."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.39501893520355225,
+        "horizontal_position": -0.33896732330322266,
+        "vertical_velocity": -0.31650322675704956,
+        "horizontal_velocity": -0.06734956800937653,
+        "angle": -0.024090057238936424,
+        "angular_velocity": -0.3138906955718994,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 228
+      },
+      "reward_accumulated": 14.303612004269763,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 6
+    }
+  },
+  {
+    "step": 60,
+    "telemetry": "Altitude: 0.40. Position X: -0.34 (0 is center). Vertical Velocity: -0.32 (Negative is falling). Horizontal Velocity: -0.07. Angle: -0.02 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.40m, falling fast (-0.32m/s) with minimal horizontal drift (-0.07m/s) and the angle is within safe limits (-0.02 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 5,
+      "reasoning": "Angle is -0.02 (nearly upright), within safe limits. Vertical velocity is negative (-0.32m/s), indicating fast descent. Using MAIN_ENGINE to brake descent. Duration set to 5 for significant braking, as the descent rate is critical. Horizontal drift is minimal."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.36566677689552307,
+        "horizontal_position": -0.3431643545627594,
+        "vertical_velocity": -0.21554826200008392,
+        "horizontal_velocity": -0.06761735677719116,
+        "angle": -0.10483364015817642,
+        "angular_velocity": -0.33391934633255005,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 233
+      },
+      "reward_accumulated": 2.0986903244627513,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 5
+    }
+  },
+  {
+    "step": 61,
+    "telemetry": "Altitude: 0.37. Position X: -0.34 (0 is center). Vertical Velocity: -0.22 (Negative is falling). Horizontal Velocity: -0.07. Angle: -0.10 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.37m, falling fast (-0.22m/s). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 4,
+      "reasoning": "Angle is -0.10 (tilted left), at the limit but acceptable. Vertical velocity is negative (-0.22m/s), indicating fast descent. Using MAIN_ENGINE to brake descent. Duration set to 4 for significant braking, as the descent rate is critical. Horizontal drift is minimal."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.35056158900260925,
+        "horizontal_position": -0.3457318842411041,
+        "vertical_velocity": -0.1170034185051918,
+        "horizontal_velocity": -0.02579086646437645,
+        "angle": -0.17189718782901764,
+        "angular_velocity": -0.33397263288497925,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 237
+      },
+      "reward_accumulated": 3.6135559435705913,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 4
+    }
+  },
+  {
+    "step": 62,
+    "telemetry": "Altitude: 0.35. Position X: -0.35 (0 is center). Vertical Velocity: -0.12 (Negative is falling). Horizontal Velocity: -0.03. Angle: -0.17 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.35m, falling (-0.12m/s) with significant angle deviation (-0.17 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.17, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.12m/s, so a duration of 3 is used for angle correction to also start braking the descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.33934521675109863,
+        "horizontal_position": -0.3474254608154297,
+        "vertical_velocity": -0.1927037537097931,
+        "horizontal_velocity": -0.05397428944706917,
+        "angle": -0.21101588010787964,
+        "angular_velocity": -0.21691112220287323,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 240
+      },
+      "reward_accumulated": -11.361448815018019,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 63,
+    "telemetry": "Altitude: 0.34. Position X: -0.35 (0 is center). Vertical Velocity: -0.19 (Negative is falling). Horizontal Velocity: -0.05. Angle: -0.21 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.34m, falling fast (-0.19m/s) with significant angle deviation (-0.21 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.21, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.19m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.32301121950149536,
+        "horizontal_position": -0.349802166223526,
+        "vertical_velocity": -0.2684449553489685,
+        "horizontal_velocity": -0.08158035576343536,
+        "angle": -0.23207791149616241,
+        "angular_velocity": -0.10201184451580048,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 243
+      },
+      "reward_accumulated": -9.288363105273856,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 64,
+    "telemetry": "Altitude: 0.32. Position X: -0.35 (0 is center). Vertical Velocity: -0.27 (Negative is falling). Horizontal Velocity: -0.08. Angle: -0.23 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.32m, falling very fast (-0.27m/s) with significant angle deviation (-0.23 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.23, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.27m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.30149710178375244,
+        "horizontal_position": -0.3529301583766937,
+        "vertical_velocity": -0.3437703549861908,
+        "horizontal_velocity": -0.11404955387115479,
+        "angle": -0.233640655875206,
+        "angular_velocity": 0.032687846571207047,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 246
+      },
+      "reward_accumulated": -7.213955587957056,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 65,
+    "telemetry": "Altitude: 0.30. Position X: -0.35 (0 is center). Vertical Velocity: -0.34 (Negative is falling). Horizontal Velocity: -0.11. Angle: -0.23 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.30m, falling extremely fast (-0.34m/s) with significant angle deviation (-0.23 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.23, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.34m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.27488023042678833,
+        "horizontal_position": -0.3568364679813385,
+        "vertical_velocity": -0.418294757604599,
+        "horizontal_velocity": -0.1460755169391632,
+        "angle": -0.21466542780399323,
+        "angular_velocity": 0.16699764132499695,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 249
+      },
+      "reward_accumulated": -4.9054560294964595,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 66,
+    "telemetry": "Altitude: 0.27. Position X: -0.36 (0 is center). Vertical Velocity: -0.42 (Negative is falling). Horizontal Velocity: -0.15. Angle: -0.21 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.27m, falling dangerously fast (-0.42m/s) with significant angle deviation (-0.21 rad) and increasing horizontal drift (-0.15). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.21, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.42m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.24308039247989655,
+        "horizontal_position": -0.3613950312137604,
+        "vertical_velocity": -0.49511590600013733,
+        "horizontal_velocity": -0.17321321368217468,
+        "angle": -0.178661048412323,
+        "angular_velocity": 0.2783051133155823,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 252
+      },
+      "reward_accumulated": -3.1473344240818584,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 67,
+    "telemetry": "Altitude: 0.24. Position X: -0.36 (0 is center). Vertical Velocity: -0.50 (Negative is falling). Horizontal Velocity: -0.17. Angle: -0.18 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.24m, falling at critical speed (-0.50m/s) with significant angle deviation (-0.18 rad) and increasing horizontal drift (-0.17). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.18, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.50m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.20609386265277863,
+        "horizontal_position": -0.3665698170661926,
+        "vertical_velocity": -0.5718694925308228,
+        "horizontal_velocity": -0.1976052075624466,
+        "angle": -0.12661784887313843,
+        "angular_velocity": 0.3787063956260681,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 255
+      },
+      "reward_accumulated": -1.4357833180902555,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 68,
+    "telemetry": "Altitude: 0.21. Position X: -0.37 (0 is center). Vertical Velocity: -0.57 (Negative is falling). Horizontal Velocity: -0.20. Angle: -0.13 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.21m, falling at critical speed (-0.57m/s) with significant angle deviation (-0.13 rad) and increasing horizontal drift (-0.20). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "RIGHT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is -0.13, which is outside the safe limit of -0.1 (tilted left). Angle correction is critical. Using RIGHT_ENGINE to rotate clockwise. Vertical velocity is -0.57m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.16387875378131866,
+        "horizontal_position": -0.37238001823425293,
+        "vertical_velocity": -0.6498866677284241,
+        "horizontal_velocity": -0.22733166813850403,
+        "angle": -0.05830072984099388,
+        "angular_velocity": 0.49861985445022583,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 258
+      },
+      "reward_accumulated": -0.2347629162336455,
+      "done": false,
+      "action_executed": "RIGHT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 69,
+    "telemetry": "Altitude: 0.16. Position X: -0.37 (0 is center). Vertical Velocity: -0.65 (Negative is falling). Horizontal Velocity: -0.23. Angle: -0.06 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.16m, falling at critical speed (-0.65m/s) with significant horizontal drift (-0.23). Angle is improving (-0.06 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "MAIN_ENGINE",
+      "duration": 7,
+      "reasoning": "Angle is -0.06 (tilted left), within safe limits. Vertical velocity is negative (-0.65m/s), indicating critical descent speed. Using MAIN_ENGINE to brake descent. Duration set to 7 for maximum braking, as the descent rate is critical and altitude is low. Horizontal drift is significant."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.07672455906867981,
+        "horizontal_position": -0.3864927291870117,
+        "vertical_velocity": -0.49843642115592957,
+        "horizontal_velocity": -0.22316858172416687,
+        "angle": 0.11503591388463974,
+        "angular_velocity": 0.5075245499610901,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 265
+      },
+      "reward_accumulated": 7.7459216218676294,
+      "done": false,
+      "action_executed": "MAIN_ENGINE",
+      "duration": 7
+    }
+  },
+  {
+    "step": 70,
+    "telemetry": "Altitude: 0.08. Position X: -0.39 (0 is center). Vertical Velocity: -0.50 (Negative is falling). Horizontal Velocity: -0.22. Angle: 0.12 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.08m, falling fast (-0.50m/s) with significant horizontal drift (-0.22) and angle deviation (0.12 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 2,
+      "reasoning": "Angle is 0.12, which is outside the safe limit of 0.1 (tilted right). Angle correction is critical. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.50m/s, so a short duration (2) for angle correction is appropriate before addressing vertical velocity and horizontal drift."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.05263267457485199,
+        "horizontal_position": -0.3901894986629486,
+        "vertical_velocity": -0.5504646897315979,
+        "horizontal_velocity": -0.20285649597644806,
+        "angle": 0.15927505493164062,
+        "angular_velocity": 0.4255147874355316,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 267
+      },
+      "reward_accumulated": -8.506479862743417,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 2
+    }
+  },
+  {
+    "step": 71,
+    "telemetry": "Altitude: 0.05. Position X: -0.39 (0 is center). Vertical Velocity: -0.55 (Negative is falling). Horizontal Velocity: -0.20. Angle: 0.16 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.05m, falling fast (-0.55m/s) with significant drift (-0.20m/s) and angle exceeding limits (0.16 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is 0.16, which is outside the safe limit of 0.1 (tilted right). Angle correction is critical. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.55m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": 0.012144122272729874,
+        "horizontal_position": -0.395194947719574,
+        "vertical_velocity": -0.6276957392692566,
+        "horizontal_velocity": -0.17463257908821106,
+        "angle": 0.21173623204231262,
+        "angular_velocity": 0.310494601726532,
+        "left_leg_contact": false,
+        "right_leg_contact": false,
+        "steps_taken": 270
+      },
+      "reward_accumulated": -11.990149471768799,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 72,
+    "telemetry": "Altitude: 0.01. Position X: -0.40 (0 is center). Vertical Velocity: -0.63 (Negative is falling). Horizontal Velocity: -0.17. Angle: 0.21 radians. Status: Flying.",
+    "navigator_advice": "Altitude 0.01m, falling extremely fast (-0.63m/s) with significant drift (-0.17m/s) and angle well outside limits (0.21 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is 0.21, which is well outside the safe limit of 0.1 (tilted right). Angle correction is critical. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.63m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": -0.03229779377579689,
+        "horizontal_position": -0.3992970585823059,
+        "vertical_velocity": -0.6476659774780273,
+        "horizontal_velocity": -0.11117030680179596,
+        "angle": 0.22865983843803406,
+        "angular_velocity": -0.1529688537120819,
+        "left_leg_contact": false,
+        "right_leg_contact": true,
+        "steps_taken": 273
+      },
+      "reward_accumulated": 7.135443901580377,
+      "done": false,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 3
+    }
+  },
+  {
+    "step": 73,
+    "telemetry": "Altitude: -0.03. Position X: -0.40 (0 is center). Vertical Velocity: -0.65 (Negative is falling). Horizontal Velocity: -0.11. Angle: 0.23 radians. Status: Touchdown imminent/Landed.",
+    "navigator_advice": "Altitude -0.03m, falling very fast (-0.65m/s) with moderate drift (-0.11m/s) and angle outside limits (0.23 rad). Recommendation: MAIN ENGINE.",
+    "commander_decision": {
+      "action": "LEFT_ENGINE",
+      "duration": 3,
+      "reasoning": "Angle is 0.23, which is well outside the safe limit of 0.1 (tilted right). Angle correction is critical. Using LEFT_ENGINE to rotate counter-clockwise. Vertical velocity is -0.65m/s, so a duration of 3 is used for angle correction to also start braking the rapid descent. Additional braking will be needed after angle correction. Landing is imminent, but correction is still necessary."
+    },
+    "execution_result": {
+      "final_telemetry": {
+        "altitude": -0.0742301270365715,
+        "horizontal_position": -0.40331920981407166,
+        "vertical_velocity": -0.41688621044158936,
+        "horizontal_velocity": -0.025839125737547874,
+        "angle": 0.08174735307693481,
+        "angular_velocity": -2.592252492904663,
+        "left_leg_contact": true,
+        "right_leg_contact": true,
+        "steps_taken": 276
+      },
+      "reward_accumulated": -81.63820034179685,
+      "done": true,
+      "action_executed": "LEFT_ENGINE",
+      "duration": 3
+    }
+  }
+]

@@ -1,0 +1,5 @@
+google-adk
+gymnasium[box2d]
+python-dotenv
+imageio
+numpy
