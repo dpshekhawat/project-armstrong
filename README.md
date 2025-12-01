@@ -9,6 +9,7 @@ This project is designed for the **Kaggle Agents Intensive Capstone**.
 
 ## Mission Replay
 
+![Mission replay](mission_replay.mp4)
 <video src="mission_replay.mp4" controls width="600"></video>
 
 *Watch the AI agents navigate and land the lunar lander in real-time.*
