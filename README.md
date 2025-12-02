@@ -11,7 +11,11 @@ This project is designed for the **Kaggle Agents Intensive Capstone**.
 
 *Watch the AI agents navigate and land the lunar lander in real-time.*
 
-https://github.com/user-attachments/assets/4bb67a0b-e2aa-41a1-bf72-f52747c63ad2
+https://github.com/dpshekhawat/project-armstrong/blob/main/mission_replay.mp4
+
+https://github.com/user-attachments/assets/aa9c2d51-f1e1-4456-8882-8a54231c4111
+
+
 
 
 ## Architecture
