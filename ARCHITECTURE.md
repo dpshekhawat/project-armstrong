@@ -21,7 +21,7 @@
         ┌────────────────────────────────────────────────┐
         │         NAVIGATOR AGENT                        │
         │  (Strategic Advisor - LlmAgent)                │
-        │  • Gemini 2.0 Flash-Exp                        │
+        │  • Gemini 2.5 Flash-Lite                        │
         │  • Session Memory (InMemorySessionService)     │
         │  • Context Compaction (10 turns)               │
         │  • Role: Analyze & Recommend Strategy          │
@@ -33,7 +33,7 @@
         ┌────────────────────────────────────────────────┐
         │         COMMANDER AGENT                        │
         │  (Tactical Pilot - LlmAgent)                   │
-        │  • Gemini 2.0 Flash-Exp                        │
+        │  • Gemini 2.5 Flash-Lite                        │
         │  • Function Calling (execute_maneuver)         │
         │  • Role: Execute Specific Maneuvers            │
         └────────────────────────────────────────────────┘
@@ -75,7 +75,7 @@
 - **Commander**: Uses function calling for environment interaction
 
 ### 2. **Models** (`google.adk.models.google_llm.Gemini`)
-- Model: `gemini-2.0-flash-exp`
+- Model: `gemini-2.5-flash-lite`
 - Retry configuration for API stability
 - Temperature: 0.1 for deterministic decisions
 
